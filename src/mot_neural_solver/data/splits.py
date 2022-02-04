@@ -58,8 +58,7 @@ _SPLITS['mot20_train_gt'] = {'MOT20/train': [f'MOT20-{seq_num:02}-GT' for seq_nu
 _SPLITS['mot20_train_wo_val'] = {'MOT20/train': [f'MOT20-{seq_num:02}-GT' for seq_num in (1, 2,  5)]}
 _SPLITS['mot20_val'] = {'MOT20/train': [f'MOT20-{seq_num:02}' for seq_num in (3,)]}
 
-_SPLITS['mot20_train_gt+'] = {'MOT17Labels/train': [f'MOT17-{seq_num:02}-GT' for seq_num in (2, 4, 9)],
-                              'MOT20/train': [f'MOT20-{seq_num:02}-GT' for seq_num in train_seq_nums]}
+_SPLITS['mot20_train_gt+'] = {'MOT20/train': [f'MOT20-{seq_num:02}-GT' for seq_num in train_seq_nums]}
 
 
 # Cross-Val
