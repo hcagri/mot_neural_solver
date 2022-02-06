@@ -9,9 +9,12 @@ eval_params:
   max_dets_per_graph_seq: 25000 # Entire sequences are split into smaller subsequences of up to max_dets_per_graph_seq
 
 train_params:
-  batch_size: 6
+  batch_size: 2
 
 data_splits:
   train: mot20_train_gt+
   val: mot20_val
   test: mot20_val
+  
+dataset_params:
+  img_batch_size=3000
