@@ -14,4 +14,4 @@ train_params:
 data_splits:
   train: mot20_train_gt+
   val: mot20_val
-  test: mot20_test
+  test: mot20_val
