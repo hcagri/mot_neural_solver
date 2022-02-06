@@ -10,7 +10,6 @@ unzip "MOT20-05-GT.zip" -d "/content/"
 
 mkdir DATA_PATH/MOT20
 mkdir DATA_PATH/MOT20/train
-rm -r DATA_PATH/2DMOT15
 
 mv "/content/usr/local/lib/python3.6/site-packages/data/MOT20/train/MOT20-01-GT" $DATA_PATH/MOT20/train/
 mv "/content/usr/local/lib/python3.6/site-packages/data/MOT20/train/MOT20-02-GT" $DATA_PATH/MOT20/train/
