@@ -50,7 +50,7 @@ python scripts/evaluate.py
 ```  
 In order to evaluate a model on the `MOT20` dataset, run the following:
 ```
-python scripts/evaluate.py with configs/mot20/tracking_cfg.py 
+python scripts/evaluate.py with configs/mot20/tracking_cfg.yaml 
 ```
 
 
