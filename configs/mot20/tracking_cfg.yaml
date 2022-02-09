@@ -17,4 +17,4 @@ data_splits:
   test: mot20_val
   
 dataset_params:
-  img_batch_size=300
+  img_batch_size:300
