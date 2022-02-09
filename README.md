@@ -1,3 +1,5 @@
+## Running on Google Colab  
+Upload the `NeuralSolver.ipynb` to colab and follow the instructions on the notebook.
 
 ## Installation 
 1. Install a miniconda (or Anaconda)  
