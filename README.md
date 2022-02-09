@@ -1,20 +1,14 @@
-# Learning a Neural Solver for Multiple Object Tracking
-
-This the official implementation of our **CVPR 2020 (oral)** paper *Learning a Neural Solver for Multiple Object Tracking* ([Guillem Brasó](https://dvl.in.tum.de/team/braso/), [Laura Leal-Taixe](https://dvl.in.tum.de/team/lealtaixe/))  
-[[Paper]](https://arxiv.org/abs/1912.07515)[[Youtube]](https://www.youtube.com/watch?v=YWEirYMaLWc)[[CVPR Daily]](https://www.rsipvision.com/ComputerVisionNews-2020July/55/)
-![Method Visualization](data/pipeline_viz.png)
-
-## Updates
-- (November 2020) Added support for [MOT20](https://motchallenge.net/data/MOT20/) (including [Tracktor](https://arxiv.org/abs/1903.05625) object detector fine-tuning) and processing long sequences, solved issues with OOM errors.  
-- (June 2020) Code release.
-## Setup
-
-1. Clone and enter this repository:
-   ```
-   git clone --recursive https://github.com/dvl-tum/mot_neural_solver.git 
-   cd mot_neural_solver
-   ```
-2. Create an [Anaconda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) for this project:
+1. Install a miniconda (or Anaconda)
+   on Windows
+      https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe
+   on Linux
+      `$ MINICONDA_INSTALLER_SCRIPT=Miniconda3-latest-Linux-x86_64.sh (Linux)`
+      `$ MINICONDA_PREFIX=/usr/local`
+      `$ wget https://repo.continuum.io/miniconda/$MINICONDA_INSTALLER_SCRIPT`
+      `$ chmod +x $MINICONDA_INSTALLER_SCRIPT`
+      `$ ./$MINICONDA_INSTALLER_SCRIPT -b -f -p $MINICONDA_PREFIX`
+ 
+2. Create an [Anaconda environment] for this project:
     1. `conda env create -f environment.yaml`
     2. `conda activate mot_neural_solver`
     3. `pip install -e tracking_wo_bnw`
