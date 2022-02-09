@@ -1,7 +1,7 @@
-1. Install a miniconda (or Anaconda)
-   on Windows
-      https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe
-   on Linux
+1. Install a miniconda (or Anaconda):
+   on Windows:
+      https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe:
+   on Linux:
       `$ MINICONDA_INSTALLER_SCRIPT=Miniconda3-latest-Linux-x86_64.sh (Linux)`
       `$ MINICONDA_PREFIX=/usr/local`
       `$ wget https://repo.continuum.io/miniconda/$MINICONDA_INSTALLER_SCRIPT`
